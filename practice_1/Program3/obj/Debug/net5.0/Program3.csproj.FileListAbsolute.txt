@@ -1,0 +1,16 @@
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\Program3.exe
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\Program3.deps.json
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\Program3.runtimeconfig.json
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\Program3.runtimeconfig.dev.json
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\Program3.dll
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\ref\Program3.dll
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\bin\Debug\net5.0\Program3.pdb
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.csproj.AssemblyReference.cache
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.AssemblyInfoInputs.cache
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.AssemblyInfo.cs
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.csproj.CoreCompileInputs.cache
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.dll
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\ref\Program3.dll
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.pdb
+C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\practice_1\Program3\obj\Debug\net5.0\Program3.genruntimeconfig.cache
