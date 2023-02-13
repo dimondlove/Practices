@@ -56,17 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\UI Scripts\InventorySlot_UI.cs" />
-    <Compile Include="Assets\Scripts\Inventory Scripts\InventorySlot.cs" />
-    <Compile Include="Assets\Scripts\Inventory Scripts\MouseItemData.cs" />
-    <Compile Include="Assets\Input\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\UI Scripts\StaticInventoryDisplay.cs" />
-    <Compile Include="Assets\Scripts\UI Scripts\InventoryDisplay.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\InventorySystem.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\StaticInventoryDisplay.cs" />
+    <Compile Include="Assets\Scripts\Inventory Scripts\MouseItemData.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\InventoryDisplay.cs" />
     <Compile Include="Assets\Scripts\Item Scripts\ItemPickUp.cs" />
-    <Compile Include="Assets\Scripts\Inventory Scripts\InventoryHolder.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Item Scripts\InventoryItemData.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Inventory Scripts\InventoryHolder.cs" />
+    <Compile Include="Assets\Input\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Inventory Scripts\InventorySlot.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\InventorySlot_UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
