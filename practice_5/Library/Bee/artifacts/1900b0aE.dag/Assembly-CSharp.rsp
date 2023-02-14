@@ -359,6 +359,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Input/PlayerControls.cs"
+"Assets/Scripts/Interactor.cs"
+"Assets/Scripts/Interfaces/IInteractable.cs"
+"Assets/Scripts/Inventory Scripts/ChestInentory.cs"
 "Assets/Scripts/Inventory Scripts/InventoryHolder.cs"
 "Assets/Scripts/Inventory Scripts/InventorySlot.cs"
 "Assets/Scripts/Inventory Scripts/InventorySystem.cs"
@@ -366,8 +369,10 @@
 "Assets/Scripts/Item Scripts/InventoryItemData.cs"
 "Assets/Scripts/Item Scripts/ItemPickUp.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/UI Scripts/DynamicInventoryDisplay.cs"
 "Assets/Scripts/UI Scripts/InventoryDisplay.cs"
 "Assets/Scripts/UI Scripts/InventorySlot_UI.cs"
+"Assets/Scripts/UI Scripts/InventoryUIController.cs"
 "Assets/Scripts/UI Scripts/StaticInventoryDisplay.cs"
 -langversion:9.0
 
