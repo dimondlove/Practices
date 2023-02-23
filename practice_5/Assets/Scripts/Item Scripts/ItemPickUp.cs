@@ -8,6 +8,8 @@ public class ItemPickUp : MonoBehaviour
     public float PickUpRadius = 1f;
     public InventoryItemData ItemData;
 
+    [SerializeField] private float _rotationSpeed = 20f;
+
     private SphereCollider myCollider;
 
     private void Awake()
@@ -15,6 +17,11 @@ public class ItemPickUp : MonoBehaviour
         myCollider = GetComponent<SphereCollider>();
         myCollider.isTrigger = true;
         myCollider.radius = PickUpRadius;
+    }
+
+    private void Update()
+    {
+        transform.Rotate(Vector3.up * _rotationSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
