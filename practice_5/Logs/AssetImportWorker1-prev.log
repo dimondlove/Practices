@@ -1,0 +1,471 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Юрец/OneDrive/Документы/Visual Studio 2019/Projects/Practices/practice_5
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50614
+Successfully changed project path to: C:/Users/Юрец/OneDrive/Документы/Visual Studio 2019/Projects/Practices/practice_5
+C:/Users/Юрец/OneDrive/Документы/Visual Studio 2019/Projects/Practices/practice_5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 138.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Юрец/OneDrive/Документы/Visual Studio 2019/Projects/Practices/practice_5/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015428 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 144.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (102ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014316 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\Practices\practice_5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Юрец\OneDrive\Документы\Visual Studio 2019\Projects\Practices\practice_5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 150.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.930 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1467ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (840ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3751 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (111.7 KB). Loaded Objects now: 4212.
+Memory consumption went from 135.9 MB to 135.8 MB.
+Total: 4.276400 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.112600 ms MarkObjects: 3.524100 ms  DeleteObjects: 0.225400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 653892.179833 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/table.prefab
+  artifactKey: Guid(ae5a8a59885f4bd4592faefdad567c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/table.prefab using Guid(ae5a8a59885f4bd4592faefdad567c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4393685e79d953c74758ca0102887aff') in 0.323815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/helmetViking.prefab
+  artifactKey: Guid(f29b3f12e3d52e34a87c71e14a06680d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/helmetViking.prefab using Guid(f29b3f12e3d52e34a87c71e14a06680d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbfabb67ebeab8fc2501c291e72d323') in 0.027576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/map.prefab
+  artifactKey: Guid(ee2c2487d703190468e55b0475365ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/map.prefab using Guid(ee2c2487d703190468e55b0475365ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b57ea08182a3298dac6966064e13e66') in 0.026101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/paintingB.prefab
+  artifactKey: Guid(0e20d834707f1b340b1ced95c37b58d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/paintingB.prefab using Guid(0e20d834707f1b340b1ced95c37b58d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53029cec025b6e26c27781ac5946fa8e') in 0.022896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/player2.prefab
+  artifactKey: Guid(9ecdc947577a2924f8990c7cc2d25f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/player2.prefab using Guid(9ecdc947577a2924f8990c7cc2d25f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465781d22288a8f3ed19805010caea8b') in 0.023602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/boxCardboard.prefab
+  artifactKey: Guid(41589e8649038cb45b0becd57cb28386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/boxCardboard.prefab using Guid(41589e8649038cb45b0becd57cb28386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445c2c8e3012b51f37003ebc1f1de999') in 0.025697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/chestA.prefab
+  artifactKey: Guid(5487aee7f789b2e42ababa672922751f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/chestA.prefab using Guid(5487aee7f789b2e42ababa672922751f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa557de7b4406a77b05a61093dd2d2c') in 0.035428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/water01.prefab
+  artifactKey: Guid(32e4b5b902bd39f4a9de2a8292abcac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/water01.prefab using Guid(32e4b5b902bd39f4a9de2a8292abcac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a2ce39cec40e6393792dc4c8c73cf4') in 0.029951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/chair.prefab
+  artifactKey: Guid(bab02c5e94fa37e47b3c6383abda4fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/chair.prefab using Guid(bab02c5e94fa37e47b3c6383abda4fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8817edd5c562e61573ddefd2df2eb2a8') in 0.031830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/skull.prefab
+  artifactKey: Guid(56addd3581beb2242a1483c63eadbe9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/skull.prefab using Guid(56addd3581beb2242a1483c63eadbe9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db60d607d990b057f2b194e11cfb1b4') in 0.030006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/pipe.prefab
+  artifactKey: Guid(ed007868ad53aab42a02ee826e6d25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/pipe.prefab using Guid(ed007868ad53aab42a02ee826e6d25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1362daf2de7b6ccc6a53821d87dd2444') in 0.023053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/bridgeWooden03.prefab
+  artifactKey: Guid(edbe6856bd2e7a342b24683095c5ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/bridgeWooden03.prefab using Guid(edbe6856bd2e7a342b24683095c5ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc62b02b30e6b7771e81dbc60aeb42c1') in 0.025315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/bridgeWooden01.prefab
+  artifactKey: Guid(389c05b0be719234db505c1b38997356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/bridgeWooden01.prefab using Guid(389c05b0be719234db505c1b38997356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d367a22e40cb02b47fc55e49aa1819') in 0.028664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/paintBrush.prefab
+  artifactKey: Guid(b4d0b347119d76d4a8e31ea5551d77bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/paintBrush.prefab using Guid(b4d0b347119d76d4a8e31ea5551d77bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88278a3fee486c0b261b678bc198597a') in 0.036032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/pot01.prefab
+  artifactKey: Guid(13a72c55b88a6a141b686faede26377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/pot01.prefab using Guid(13a72c55b88a6a141b686faede26377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad4b80f211b31f30326e2dbca39ac05') in 0.026238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/cog2.prefab
+  artifactKey: Guid(d205006906d99ff43988a78e8166390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/cog2.prefab using Guid(d205006906d99ff43988a78e8166390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5175a88ea8fff34b2e34340f65b9782') in 0.024464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/chestB.prefab
+  artifactKey: Guid(9a2d24d921f82644d9d46c815ae2af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/chestB.prefab using Guid(9a2d24d921f82644d9d46c815ae2af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36745a004d0be80bc3f6b0fa7b23ee79') in 0.024127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/lock.prefab
+  artifactKey: Guid(c087368a12743c74886640f6fdc64065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/lock.prefab using Guid(c087368a12743c74886640f6fdc64065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7851b035881b0ac8f1b91a027a4bb3b0') in 0.024260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/wallStone01.prefab
+  artifactKey: Guid(0b7260a9aed863d4dbd73b842691a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/wallStone01.prefab using Guid(0b7260a9aed863d4dbd73b842691a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11663100e8efa16359a627a3fe5809f9') in 0.025283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/groundSpike02.prefab
+  artifactKey: Guid(078836f0f5fea284aa763ad7c2009560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/groundSpike02.prefab using Guid(078836f0f5fea284aa763ad7c2009560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5206b99e8786025ef44715e3fa16114') in 0.020767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/ground02.prefab
+  artifactKey: Guid(e99c873e01cf107479c2580106649c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/ground02.prefab using Guid(e99c873e01cf107479c2580106649c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439f3dbb23294867b9bda1fbebd83d39') in 0.023819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs
+  artifactKey: Guid(8d1cac348ca4854439c956e7f321f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs using Guid(8d1cac348ca4854439c956e7f321f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a92677375176970ee4320546a8ebd6') in 0.008615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/wallSteps.prefab
+  artifactKey: Guid(edff2e271e46e1a478c9f195c91f6eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/wallSteps.prefab using Guid(edff2e271e46e1a478c9f195c91f6eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ff8e59d0ca61e2fa88568c6d6ad754') in 0.023458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/beer.prefab
+  artifactKey: Guid(c530fbff4103afc408c32f5f7bfe17f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/beer.prefab using Guid(c530fbff4103afc408c32f5f7bfe17f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da90c465686e7eaf563080127942d67') in 0.022151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/flagB.prefab
+  artifactKey: Guid(20badcc9ea06043498f106ad02c01b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/flagB.prefab using Guid(20badcc9ea06043498f106ad02c01b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b9307dd46e419e6a759834363a13e') in 0.022871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/paintingA.prefab
+  artifactKey: Guid(fbacab635beaefc48bfacba3ebeb5695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/paintingA.prefab using Guid(fbacab635beaefc48bfacba3ebeb5695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ea7f5f3244ddd17961a54efcb5e1ba') in 0.021154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/pike.prefab
+  artifactKey: Guid(ca4ab165c4d27d8479ccb79445607ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/pike.prefab using Guid(ca4ab165c4d27d8479ccb79445607ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02413abee505416d464e932ca5dcd865') in 0.022630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/flagC.prefab
+  artifactKey: Guid(39633c84e1b58df4faaa196365cd9c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/flagC.prefab using Guid(39633c84e1b58df4faaa196365cd9c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebbdc799f987574b54d9cda0024d6d3') in 0.023630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/flagA.prefab
+  artifactKey: Guid(baed2b0960b276e4e901bf65baf5d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/flagA.prefab using Guid(baed2b0960b276e4e901bf65baf5d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df8158e9701a24752649513a4eae80a') in 0.025549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/scissor.prefab
+  artifactKey: Guid(5a96e2e823ddf4b47b9f037bad6c943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/scissor.prefab using Guid(5a96e2e823ddf4b47b9f037bad6c943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0995b1c37591ce46bc6186bc4136e803') in 0.020983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/button_red.prefab
+  artifactKey: Guid(116aadcda4f594245a367fec7d48037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/button_red.prefab using Guid(116aadcda4f594245a367fec7d48037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da9bf1a5c68e1646ce3e4c9baae2336') in 0.028133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/diceB.prefab
+  artifactKey: Guid(661f600478487fc4792cb78b9870319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/diceB.prefab using Guid(661f600478487fc4792cb78b9870319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcfc9bb11f182883ec04afc583cd868') in 0.024670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/ground03.prefab
+  artifactKey: Guid(34d87441c865c024f822a440cc00a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/ground03.prefab using Guid(34d87441c865c024f822a440cc00a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc9cac770519729b0fb2c176ad16f2e') in 0.023154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/heart.prefab
+  artifactKey: Guid(538c974320ffb434c9114d9951f379ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/heart.prefab using Guid(538c974320ffb434c9114d9951f379ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568538d805bbc00a4b5b9ca496ea53c6') in 0.023812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/pillar02.prefab
+  artifactKey: Guid(1bbb5dc7cbd5dc641b926cc044267959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/pillar02.prefab using Guid(1bbb5dc7cbd5dc641b926cc044267959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade3d65817f59767b168d85c7bfdb4bc') in 0.022778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/bottlePotionMana.prefab
+  artifactKey: Guid(94537bf4de060cb4aa7a64d1fe68ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/bottlePotionMana.prefab using Guid(94537bf4de060cb4aa7a64d1fe68ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdc5c92756b87a3731116aaab019559') in 0.023782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/torch.prefab
+  artifactKey: Guid(8cf7b956389f874428b68eef449ebae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/torch.prefab using Guid(8cf7b956389f874428b68eef449ebae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001ab4ffd35b258c2e426c6ec82d9885') in 0.021483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/sword.prefab
+  artifactKey: Guid(3341332030f352140a7336db5b5d1c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/sword.prefab using Guid(3341332030f352140a7336db5b5d1c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ba81750f2ce91bdceda3c7a24b26e2') in 0.020998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/bottlePotionPoison.prefab
+  artifactKey: Guid(ec77599ed23ae934392afcfd99b0a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/bottlePotionPoison.prefab using Guid(ec77599ed23ae934392afcfd99b0a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2000a9f1879d9f7ba53281a36658a1b3') in 0.022727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/flagD.prefab
+  artifactKey: Guid(55a834f89e23b4147ae1513424bf126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/flagD.prefab using Guid(55a834f89e23b4147ae1513424bf126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3803418028d429cd935c3da28e3f55d') in 0.021555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/cog3.prefab
+  artifactKey: Guid(dbdbe781c0700224894b1bb354fe722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/cog3.prefab using Guid(dbdbe781c0700224894b1bb354fe722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617000452d7494c9fed4d0d3905d2240') in 0.020130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/chalice.prefab
+  artifactKey: Guid(bc91c22b960dc3a4bbe1a5fccc044120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/chalice.prefab using Guid(bc91c22b960dc3a4bbe1a5fccc044120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797e07a29eeb2c649daaa2ef250ad51d') in 0.022824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/coin.prefab
+  artifactKey: Guid(2eb5d4c04f841f7499c1943a559deb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/coin.prefab using Guid(2eb5d4c04f841f7499c1943a559deb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914fa460b10f4892f91333d9e10a278d') in 0.020973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/player1.prefab
+  artifactKey: Guid(01034e687e4cf194595a6c2768d0a7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/player1.prefab using Guid(01034e687e4cf194595a6c2768d0a7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcfc6589014cca366e53f8c8af706de') in 0.020415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D
+  artifactKey: Guid(76e7fb2e498c94948bacd65406ea990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D using Guid(76e7fb2e498c94948bacd65406ea990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a2f0d20b174e5449bc16de46917b44') in 0.008832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/egg01.prefab
+  artifactKey: Guid(0b7ee2f229829f4448a5b3b8e090a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/egg01.prefab using Guid(0b7ee2f229829f4448a5b3b8e090a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44c05882258364b69b91f439a7c390') in 0.022646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/woodenBarrel.prefab
+  artifactKey: Guid(2b0b70ac85419094bb37dad25d6f9910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/woodenBarrel.prefab using Guid(2b0b70ac85419094bb37dad25d6f9910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28736acba9724f40df9102d2b2beb14c') in 0.029337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/rock.prefab
+  artifactKey: Guid(892185e5c03059e4681890d104dd5ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/rock.prefab using Guid(892185e5c03059e4681890d104dd5ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc9aa4be677814de0b29a3924a498ab') in 0.024274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/char02.prefab
+  artifactKey: Guid(152b6c5b32ecf8449975c7ff22514d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/char02.prefab using Guid(152b6c5b32ecf8449975c7ff22514d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069154f77222caac567dad926e6662a5') in 0.021073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkshop/3D/Prefabs/boulderSpike.prefab
+  artifactKey: Guid(6b4895341818a7441baadd3778e5217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkshop/3D/Prefabs/boulderSpike.prefab using Guid(6b4895341818a7441baadd3778e5217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c2c4a12527e8a14b9b124195893d3c') in 0.020258 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
