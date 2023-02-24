@@ -73,6 +73,11 @@
     <Compile Include="Assets\Scripts\Inventory Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventorySlot_UI.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopItemList.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopKeeper.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopSystem.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopSlot.cs" />
+    <Compile Include="Assets\Scripts\Item Scripts\ItemSlot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
