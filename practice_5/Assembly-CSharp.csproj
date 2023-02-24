@@ -57,27 +57,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Inventory Scripts\InventorySystem.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopSlot.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\StaticInventoryDisplay.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\MouseItemData.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryDisplay.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\ChestInentory.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryUIController.cs" />
+    <Compile Include="Assets\Scripts\Item Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\Item Scripts\ItemPickUp.cs" />
     <Compile Include="Assets\Scripts\Item Scripts\InventoryItemData.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\PlayerInventoryHolder.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\InventoryHolder.cs" />
     <Compile Include="Assets\Scripts\Interactor.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopSystem.cs" />
     <Compile Include="Assets\Input\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopItemList.cs" />
+    <Compile Include="Assets\Scripts\Shop System\ShopKeeper.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\DynamicInventoryDisplay.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventorySlot_UI.cs" />
-    <Compile Include="Assets\Scripts\Shop System\ShopItemList.cs" />
-    <Compile Include="Assets\Scripts\Shop System\ShopKeeper.cs" />
-    <Compile Include="Assets\Scripts\Shop System\ShopSystem.cs" />
-    <Compile Include="Assets\Scripts\Shop System\ShopSlot.cs" />
-    <Compile Include="Assets\Scripts\Item Scripts\ItemSlot.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\ShopKeeperDisplay.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\ShopSlotUI.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\ShoppingCartItemUI.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\UIController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

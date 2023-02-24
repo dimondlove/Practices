@@ -381,7 +381,11 @@
 "Assets/Scripts/UI Scripts/InventoryDisplay.cs"
 "Assets/Scripts/UI Scripts/InventorySlot_UI.cs"
 "Assets/Scripts/UI Scripts/InventoryUIController.cs"
+"Assets/Scripts/UI Scripts/ShopKeeperDisplay.cs"
+"Assets/Scripts/UI Scripts/ShoppingCartItemUI.cs"
+"Assets/Scripts/UI Scripts/ShopSlotUI.cs"
 "Assets/Scripts/UI Scripts/StaticInventoryDisplay.cs"
+"Assets/Scripts/UI Scripts/UIController.cs"
 -langversion:9.0
 
 /deterministic
