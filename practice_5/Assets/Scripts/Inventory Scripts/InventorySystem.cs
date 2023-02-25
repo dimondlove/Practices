@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using System.Linq;
+using System;
 
 [System.Serializable]
 public class InventorySystem
@@ -77,5 +78,30 @@ public class InventorySystem
     {
         freeSlot = InventorySlots.FirstOrDefault(i => i.ItemData == null);
         return freeSlot == null ? false : true;
+    }
+
+    public bool CheckInventoryRemaining(Dictionary<InventoryItemData, int> shoppingCart)
+    {
+        var clonedSystem = new InventorySystem(this.InventorySize);
+
+        for (int i = 0; i < InventorySize; i++)
+        {
+            clonedSystem.InventorySlots[i].AssignItem(this.InventorySlots[i].ItemData, this.InventorySlots[i].StackSize);
+        }
+
+        foreach (var kvp in shoppingCart)
+        {
+            for (int i = 0; i < kvp.Value; i++)
+            {
+                if (!clonedSystem.AddToInventory(kvp.Key, 1)) return false;
+            }
+        }
+
+        return true;
+    }
+
+    public void SpendGold(int basketTotal)
+    {
+        _gold -= basketTotal;
     }
 }

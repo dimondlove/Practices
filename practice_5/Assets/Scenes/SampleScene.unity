@@ -2383,9 +2383,12 @@ MonoBehaviour:
   inventorySize: 10
   primaryInventorySystem:
     inventorySlots: []
+    _gold: 500
+  _gold: 500
   secondaryInventorySize: 30
   secondaryInventorySystem:
     inventorySlots: []
+    _gold: 0
 --- !u!1 &778343917
 GameObject:
   m_ObjectHideFlags: 0
