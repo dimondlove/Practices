@@ -58,6 +58,7 @@ public class ShopKeeperDisplay : MonoBehaviour
         }
 
         ClearSlots();
+        ClearItemPreview();
 
         _basketTotalText.enabled = false;
         _buyButton.gameObject.SetActive(false);
@@ -65,7 +66,9 @@ public class ShopKeeperDisplay : MonoBehaviour
         _playerGoldText.text = $"Player Gold: {_playerInventoryHolder.PrimaryInventorySystem.Gold}";
         _shopGoldText.text = $"Shop Gold: {_shopSystem.AvailableGold}";
 
-        DisplayShopInventory();
+        if (_isSelling) DisplayPlayerInventory();
+        else DisplayShopInventory();
+
     }
 
     private void BuyItems()
@@ -92,7 +95,19 @@ public class ShopKeeperDisplay : MonoBehaviour
 
     private void SellItems()
     {
-        
+        if (_shopSystem.AvailableGold < _basketTotal) return;
+
+        foreach (var kvp in _shoppingCart)
+        {
+            var price = GetModifiedPrice(kvp.Key, kvp.Value, _shopSystem.SellMarkUp);
+
+            _shopSystem.SellItem(kvp.Key, kvp.Value, price);
+
+            _playerInventoryHolder.PrimaryInventorySystem.GainGold(price);
+            _playerInventoryHolder.PrimaryInventorySystem.RemoveItemsFromInventory(kvp.Key, kvp.Value);
+
+            RefreshDisplay();
+        }
     }
 
     private void ClearSlots()
@@ -122,9 +137,16 @@ public class ShopKeeperDisplay : MonoBehaviour
         }
     }
 
-    private void DisplayerPlayerInventory()
+    private void DisplayPlayerInventory()
     {
+        foreach (var item in _playerInventoryHolder.PrimaryInventorySystem.GetAllItemsHeld())
+        {
+            var tempSlot = new ShopSlot();
+            tempSlot.AssignItem(item.Key, item.Value);
 
+            var shopSlot = Instantiate(_shopSlotPrefab, _itemListContentPanel.transform);
+            shopSlot.Init(tempSlot, _shopSystem.SellMarkUp);
+        }
     }
 
     public void RemoveItemFromCart(ShopSlotUI shopSlotUI)
@@ -163,7 +185,10 @@ public class ShopKeeperDisplay : MonoBehaviour
 
     private void ClearItemPreview()
     {
-        
+        _itemPreviewSprite.sprite = null;
+        _itemPreviewSprite.color = Color.clear;
+        _itemPreviewName.text = "";
+        _itemPreviewDescription.text = "";
     }
 
     public void AddItemToCart(ShopSlotUI shopSlotUI)
@@ -217,11 +242,28 @@ public class ShopKeeperDisplay : MonoBehaviour
     {
         var baseValue = data.GoldValue * amount;
 
-        return Mathf.RoundToInt(baseValue + baseValue * markUp);
+        return Mathf.FloorToInt(baseValue + baseValue * markUp);
     }
 
     private void UpdateItemPreview(ShopSlotUI shopSlotUI)
     {
-        
+        var data = shopSlotUI.AssignedItemSlot.ItemData;
+
+        _itemPreviewSprite.sprite = data.Icon;
+        _itemPreviewSprite.color = Color.white;
+        _itemPreviewName.text = data.DisplayName;
+        _itemPreviewDescription.text = data.Description;
+    }
+
+    public void OnBuyTabPressed()
+    {
+        _isSelling = false;
+        RefreshDisplay();
+    }
+
+    public void OnSellTabPressed()
+    {
+        _isSelling = true;
+        RefreshDisplay();
     }
 }
