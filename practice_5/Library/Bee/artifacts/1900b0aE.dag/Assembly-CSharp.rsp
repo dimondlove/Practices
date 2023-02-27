@@ -361,6 +361,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Input/PlayerControls.cs"
+"Assets/Scripts/HotbarDisplay.cs"
 "Assets/Scripts/Interactor.cs"
 "Assets/Scripts/Interfaces/IInteractable.cs"
 "Assets/Scripts/Inventory Scripts/ChestInentory.cs"

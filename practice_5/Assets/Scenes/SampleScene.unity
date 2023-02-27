@@ -2380,15 +2380,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8586f694393531a49b56b77105e2c793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventorySize: 10
+  inventorySize: 40
   primaryInventorySystem:
     inventorySlots: []
     _gold: 500
+  offset: 10
   _gold: 500
-  secondaryInventorySize: 30
-  secondaryInventorySystem:
-    inventorySlots: []
-    _gold: 0
 --- !u!1 &778343917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,6 +4290,7 @@ GameObject:
   - component: {fileID: 1512961742}
   - component: {fileID: 1512961741}
   - component: {fileID: 1512961740}
+  - component: {fileID: 1512961745}
   m_Layer: 5
   m_Name: Player Hotbar
   m_TagString: Untagged
@@ -4337,7 +4335,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512961738}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46ccdd650291133419c9ed297d355a38, type: 3}
   m_Name: 
@@ -4433,6 +4431,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512961738}
   m_CullTransparentMesh: 1
+--- !u!114 &1512961745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512961738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131ae0bea20b72142867f8914b25392e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseInventoryItem: {fileID: 1454208442}
+  inventoryHolder: {fileID: 763657060}
+  slots:
+  - {fileID: 417234134}
+  - {fileID: 1144049727}
+  - {fileID: 1870819159}
+  - {fileID: 1667741203}
+  - {fileID: 304202620}
+  - {fileID: 1902773972}
+  - {fileID: 1769605551}
+  - {fileID: 1101131137}
+  - {fileID: 1959776713}
+  - {fileID: 36025424}
 --- !u!1 &1531066008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,7 +4509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e67d9365be175c4e9250a16ef59feb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chestPanel: {fileID: 1247528318}
+  invenotryPanel: {fileID: 1247528318}
   playerBackpackPanel: {fileID: 778343921}
 --- !u!1001 &1534984939
 PrefabInstance:
