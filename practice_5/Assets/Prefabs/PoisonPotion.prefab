@@ -61,6 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickUpRadius: 1
   ItemData: {fileID: 11400000, guid: 31d8845131041394da83c899d17e2a53, type: 2}
+  _rotationSpeed: 20
 --- !u!1001 &4299375977024865821
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,6 +10,8 @@ public class HotbarDisplay : StaticInventoryDisplay
     private int _currentIndex = 0;
 
     private PlayerControls _playerControls;
+    [SerializeField] private Player _player;
+    private object clickedUISlot;
 
     private void Awake()
     {
@@ -41,7 +43,7 @@ public class HotbarDisplay : StaticInventoryDisplay
         _playerControls.Player.Hotbar8.performed += Hotbar8;
         _playerControls.Player.Hotbar9.performed += Hotbar9;
         _playerControls.Player.Hotbar10.performed += Hotbar10;
-        _playerControls.Player.UseItem.performed += UseItem;
+       _playerControls.Player.UseItem.performed += UseItem;
     }
 
     protected override void OnDisable()
@@ -114,13 +116,27 @@ public class HotbarDisplay : StaticInventoryDisplay
 
     private void Update()
     {
-        if (_playerControls.Player.MouseWheel.ReadValue<float>() > 0.1f) ChangeIndex(1);
-        if (_playerControls.Player.MouseWheel.ReadValue<float>() < -0.1f) ChangeIndex(-1);
+        if (_playerControls.Player.MouseWheel.ReadValue<float>() > 0.1f) ChangeIndex(-1);
+        if (_playerControls.Player.MouseWheel.ReadValue<float>() < -0.1f) ChangeIndex(1);
     }
 
     private void UseItem(InputAction.CallbackContext obj)
     {
-        if (slots[_currentIndex].AssignedInventorySlot.ItemData != null) slots[_currentIndex].AssignedInventorySlot.ItemData.UseItem();
+        if (slots[_currentIndex].AssignedInventorySlot.ItemData != null)
+        {
+            switch (slots[_currentIndex].AssignedInventorySlot.ItemData.ID)
+            {
+                case 0:
+                    _player.TakeHealth(20);
+                    break;
+                case 1:
+                    _player.TakeDamage(25);
+                    break;
+            }
+            if (slots[_currentIndex].AssignedInventorySlot.StackSize > 1) slots[_currentIndex].AssignedInventorySlot.AddToStack(-1);
+            else slots[_currentIndex].AssignedInventorySlot.ClearSlot();
+            RefreshStaticDisplay();
+        }
     }
 
     private void ChangeIndex(int direction)

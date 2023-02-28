@@ -17,7 +17,6 @@ public class ShopKeeper : MonoBehaviour, IInteractable
 
         foreach (var item in _shopItemsHeld.Items)
         {
-            Debug.Log($"{item.ItemData.DisplayName}: {item.Amount}");
             _shopSystem.AddToShop(item.ItemData, item.Amount);
         }
     }

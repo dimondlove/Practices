@@ -14,8 +14,16 @@ public class InventoryItemData : ScriptableObject
     public int GoldValue;
     public GameObject ItemPrefab;
 
-    public void UseItem()
+    /*public void UseItem()
     {
-        Debug.Log($"Using {DisplayName}");
-    }
+        switch (ID)
+        {
+            case 0:
+                Debug.Log($"Using Health Potion");
+                break;
+            case 1:
+                Debug.Log($"Using Poison Potion");
+                break;
+        }
+    }*/
 }
